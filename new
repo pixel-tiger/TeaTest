@@ -1,0 +1,19 @@
+// Helper function to calculate the area of a squre
+function calculateRectangleArea(width) {
+    return width * width;
+}
+
+// Main function
+function main() {
+    // Define the dimensions of the rectangle
+    var width = 5;
+
+    // Calculate the area using the helper function
+    var area = calculateRectangleArea(width);
+
+    // Print the result
+    console.log("The area of the square is: " + area);
+}
+
+// Call the main function
+main();
